@@ -6,7 +6,7 @@ export default () => {
       <div className="container-fluid text-center">
         <Header></Header>
         <h1>What's Your Fortune?</h1>
-        <p>Open the cookie if you dare.</p>
+        <p>The cookie has spoken!</p>
         <Link href="/">
 <a><img src="/images/cookie2.jpg"className="img-fluid" alt="responsive image"></img></a>
 </Link>
