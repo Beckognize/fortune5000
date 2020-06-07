@@ -1,14 +1,17 @@
-import Head from 'next/head';
-
+import Header from '../components/header';
+import Link from 'next/link'
 export default () => {
     return (
-      <div>
-        <Head>
-          <link href="/css/index.css" rel="stylesheet" />
-        </Head>
-        <h1>This Is A Web Page Bitch!</h1>
-        <p>This is not a good web page bitch.</p>
-        <img src="/images/punkotter.jpg"></img>
+      
+      <div className="container-fluid text-center">
+        <Header></Header>
+        <h1>What's Your Fortune?</h1>
+        <p>Open the cookie if you dare.</p>
+        <Link href="/open-cookie">
+<a><img src="/images/cookie.jpg"className="img-fluid" alt="responsive image"></img></a>
+</Link>
       </div>
     );
   }
+
+  
