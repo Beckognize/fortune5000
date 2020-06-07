@@ -11,3 +11,22 @@ body {
     h1 {
         font-size: 60px;
     }
+    p {
+     font-size: 20pt;
+    }
+    .cookiebox{ position: relative;
+    /*outline:1px solid red;*/
+    }
+
+    .message{ position: absolute;
+        font-family: sans-serif;
+        padding-top: 2%;
+      
+        top: 20%;
+        left: 45%;
+        width: 31%;
+        height: 70px;
+        /*outline: 1px solid red;*/
+    
+        transform: rotate(-18deg);
+    }

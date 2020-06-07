@@ -65,7 +65,6 @@ Don't eat the paper.`.trim().split("\n")
 var randomNumber = Math.floor(Math.random() * (fortune.length));
 return fortune[randomNumber];
 
-  // return "You will get ten Shiba Inu's for Kwanza!"
 }
 
 export default () => {
@@ -74,10 +73,12 @@ export default () => {
         <Header></Header>
         <h1>What's Your Fortune?</h1>
         <p>The cookie has spoken!</p>
-        <Link href="/">
+       <div className="cookiebox"> <Link href="/">
 <a><img src="/images/cookie2.jpg"className="img-fluid" alt="responsive image"></img></a>
 </Link>
-<p>{getFortune()}</p>
+
+<div className="message">{getFortune()}</div>
+</div>
       </div>
     );
   }
